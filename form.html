@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Volunteer Form</title>
+  
+  <!--Jquery-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  
+  <style>
+   .my_form{
+     margin: 3px;
+    } 
+  </style>
+  
+</head>
+<body>
+  
+  <h1>Volunteer Form</h1>
+  <form method="post" netlify>
+    Your Name: <input class="my_form" type="text" name="your_name" value="" /> <br />
+    Your Email: <input class="my_form" type="email" name="email" value="" required /> <br />
+    
+    Gender: <br />
+      <input class="my_form" type="radio" name="gender" value="female" required />Female <br />
+      <input class="my_form" type="radio" name="gender" value="Male" />Male <br />
+    T-shirt size:
+    <select class="my_form" name="t_size" id="t-size" required>
+      <option value="">Pick a shirt size</option>
+      <option value="XS">XS</option>
+      <option value="S">S</option>
+      <option value="M">M</option>
+      <option value="L">L</option>
+      <option value="XL">XL</option>
+      <option value="XXL">XXL</option>
+      <option value="other">Other</option>
+    </select>
+    <br />
+    Other: <input type="text" name="other" id="other" disabled />
+    
+    <br />
+    <p>Time of day you would like to volunteer</p>
+    <input class="my_form" type="checkbox" name="v_time" value="morning" /> Morning
+    <input class="my_form" type="checkbox" name="v_time" value="afternoon" /> Afternoon
+    <input class="my_form" type="checkbox" name="v_time" value="evening" /> Evening
+    
+    <p>Additional Comments</p>
+    <textarea class="my_form" name="comments" cols="50" rows="5"></textarea>
+    <br />
+    <input class="my_form" type="submit" name="submit" value="Register" />
+  </form>
+  
+    <!-- scripts -->
+  <script src="scripts/my-scripts-form.js"></script>
+  
+</body>
+</html>

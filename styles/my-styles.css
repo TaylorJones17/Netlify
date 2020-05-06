@@ -1,0 +1,97 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: #6b62bb;
+}
+
+.navbar-brand, .nav-link {
+  color: #FFF !important;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+  color: #edd1ff !important;
+}
+
+.dropdown-menu {
+  background-color: #8075de !important;
+}
+
+@media (max-width: 600px) {
+    .carousel {
+    display: none;
+  }
+  
+}
+
+/* From My CDN pen */
+.my-google-font {
+ font-size: 45px;
+ text-align: center;
+ font-family: Odibee Sans;
+}
+
+.fa-row {
+  background-color: #6b62bb;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  font-size: 25px;
+  color: #FFFFFF;
+  font-family: Odibee Sans;
+}
+
+.fab-links {
+  color: #ffffff;
+}
+
+.fab {
+  font-size: 35px;
+  color: #ffffff;
+}
+
+
+.fab:hover {
+  color: #edd1ff;
+  text-decoration: none;
+  font-size: 36px;
+}
+
+.fab-links:hover {
+  color: #edd1ff;
+  text-decoration: none;
+}
+
+
+.carousel-caption {
+  background-color: rgb(0,0,0,0.5);
+  width: 30%;
+  margin: auto;
+}
+
+.video-row {
+  text-align: center;
+  padding: 32px;
+}
+
+.google-fonts-sample {
+  text-align: left !important;
+  font-family: Odibee Sans;
+  font-size: 28px;
+  padding-left: 40px;
+}
+
+.footer-row {
+  background-color: #6b62bb;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  font-size: 25px;
+  color: #FFFFFF;
+  font-family: Odibee Sans;
+}
+
+.footer-row a {
+  color: #FFFFFF;
+}
